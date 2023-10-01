@@ -1,24 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      {/* comp */}
+      <div className="w-full h-full bg-[#06141d]">
+      <div className="max-w-xl space-y-4 mx-auto py-24 px-5 text-neutral-200 text-xl">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
+            sit dolores odio excepturi facilis laboriosam officiis dolorem,
+            nobis reprehenderit molestiae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
+            sit dolores odio excepturi facilis laboriosam officiis dolorem,
+            nobis reprehenderit molestiae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
+            sit dolores odio excepturi facilis laboriosam officiis dolorem,
+            nobis reprehenderit molestiae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
+            sit dolores odio excepturi facilis laboriosam officiis dolorem,
+            nobis reprehenderit molestiae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
+            sit dolores odio excepturi facilis laboriosam officiis dolorem,
+            nobis reprehenderit molestiae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
+            sit dolores odio excepturi facilis laboriosam officiis dolorem,
+            nobis reprehenderit molestiae.
+          </p>
+        </div>
+      </div>
+      
+    </main>
   );
 }
 
